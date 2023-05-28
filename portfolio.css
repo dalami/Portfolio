@@ -74,13 +74,25 @@ header {
  margin:  auto;
   width: 85vw;
   background-color: white;
-
+  
+}
+.rectangulo{
+  width: 5rem;
+  height: 32rem;
+  background-color: #a9b1ea;
+  position: relative;
+  left: 7rem;
+ 
+  
+  
 }
 .cielo {
   display: column;
   padding: 0 3rem;
+  z-index: 1;
 }
 .cielo-img {
+  display: flex;
   border: 1rem solid #a9b1ea;
 }
 .cielo-t {
