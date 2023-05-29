@@ -23,6 +23,9 @@ a:hover {
   width: 2rem;
   background-color: #293dcb;
 }
+.menu{
+  visibility: hidden;
+}
 
 header {
   display: flex;
@@ -33,13 +36,15 @@ header {
   width: 85vw;
   margin: 0 auto;
   background-color: white;
+  position: fixed;
+  z-index: 1;
 }
 .hero {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 80vh;
- 
+  padding-top: 5rem;
   width: 85vw;
   margin:  0 auto;
   background-color: white;
@@ -71,9 +76,10 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
- margin:  auto;
+  margin:  auto;
   width: 85vw;
   background-color: white;
+  padding-top: 4rem;
   
 }
 .rectangulo{
@@ -122,6 +128,20 @@ header {
 .skills-tit {
   font-size: 2rem;
   font-weight: 600;
+}
+.linea-sk1{
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #293dcb;
+  position: relative;
+  right: -6.2rem;
+}
+.linea-sk2{
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #293dcb;
+  position: relative;
+  right: 6.6rem;
 }
 .skills-p {
   width: 35rem;
@@ -191,6 +211,31 @@ header {
   background-color: white;
   padding-top: 4rem;
 }
+.linea-es1{
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #293dcb;
+  position: relative;
+  right: 15rem;
+}
+.ovalo-es1{
+  width: 1rem;
+  height: 0.6rem;
+  border: 3px solid #293dcb;
+  border-radius: 50%;
+  position: relative;
+  right: 30.2rem;
+  top: 0.2rem;
+  margin-right: 0.5rem;
+}
+
+.linea-es2{
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #293dcb;
+  position: relative;
+  right: 45.7rem;
+}
 .especial-cartas {
   display: flex;
   flex-direction: column;
@@ -257,6 +302,61 @@ h6 {
   width: 85vw;
   margin: 0 auto;
 }
+.subtitulo{
+  display: flex;
+}
+.linea-1{
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #293dcb;
+  position: relative;
+  right: 0.4rem;
+}
+.ovalo-1{
+  width: 1rem;
+  height: 0.6rem;
+  border: 3px solid #293dcb;
+  border-radius: 50%;
+  position: relative;
+  right: 0.5rem;
+  top: 0.2rem;
+}
+.ovalo-2{
+  width: 1rem;
+  height: 0.6rem;
+  border: 3px solid #293dcb;
+  border-radius: 50%;
+  position: relative;
+  top: 0.2rem;
+}
+.linea-2{
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #293dcb;
+  position: relative;
+  
+}
+
+.blob2{
+  width: 300px;
+  height: 330px;
+ background-color: #DFE2F7;
+ border-radius:  70% 50% 100% 0;
+ position: relative;
+ top: -43rem;
+ left: 9.3rem;
+ z-index: -1;
+}
+.blob3{
+  width: 300px;
+  height: 330px;
+ background-color: #DFE2F7;
+ border-radius: 0 100% 60% 70%;
+ position: relative;
+ top: -47rem;
+ left: 9.3rem;
+}
+
 .serv- {
   display: flex;
   flex-direction: column;
@@ -271,6 +371,7 @@ h6 {
   justify-content: center;
   padding: 1rem 2rem;
 }
+
 .cartas-servicios p {
   color: #a7a3a2;
 }
@@ -278,15 +379,17 @@ h6 {
 .cartas10 {
   text-align: justify;
   margin: 0 1rem;
+  
 }
 .cartas10:hover{
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(0.9);
   border: 1px solid #a7a3a2;
   border-radius: 25%;
   overflow: hidden;
   padding: 1rem;
   box-shadow: 1px -1px #a7a3a2;
+  transition: ease-in-out;
 
 }
 .cartas10 p{
@@ -324,7 +427,34 @@ h6 {
   object-fit: cover;
   gap: 1rem;
   width: 50%;
-  height: 62rem;
+ 
+}
+.linea-3{
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #293dcb;
+}
+.ovalo-3{
+  width: 1rem;
+  height: 0.6rem;
+  border: 3px solid #293dcb;
+  border-radius: 50%;
+  position: relative;
+  top: 0.2rem;
+  margin-right: 0.5rem;
+}
+.ovalo-4{
+  width: 1rem;
+  height: 0.6rem;
+  border: 3px solid #293dcb;
+  border-radius: 50%;
+  position: relative;
+  top: 0.2rem;
+}
+.linea-4{
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #293dcb;
 }
 
 .feel {
@@ -464,6 +594,33 @@ p {
   background-color: white;
   
 }
+.linea-5{
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #293dcb;
+  position: relative;
+  right: 7em;
+}
+.ovalo-5{
+  width: 1rem;
+  height: 0.6rem;
+  border: 3px solid #293dcb;
+  border-radius: 50%;
+  position: relative;
+  top: 0.2rem;
+  margin-right: 0.5rem;
+  right: 14.3rem;
+ 
+}
+
+.linea-6{
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #293dcb;
+  position: relative;
+  right: 22.1rem;
+
+}
 .drop{
   width: 40vw;
 }
@@ -508,6 +665,8 @@ p {
   align-items: center;
   background-color:black;
   height: 18rem;
+  width: 85vw;
+  margin: 0 auto;
   
 }
 .footer-p{
@@ -559,14 +718,54 @@ p {
 
 
 @media screen and (min-width:768px) and (max-width:1023px){
-    body{
-        background-color: blue;
-    }
+   
+    header{justify-content: center;padding: 0.5rem; z-index: 1;}
+    .hero img{width: 14rem;}
+    .a{display: none;}
+    .hero-t{font-size: 3rem;}
+    .cielo{padding-top: 6rem;}
+    .cielo-img{width: 10rem;border: none;opacity: 0.5;}
+    .cielo-p{color: #464646;}
+    .progreso-1{flex-direction: column;align-items: center;}
+    .especial-cartas .subtitulo{display: none;}
+    .especial-cartas{margin-left: 2rem;}
+    .cartas-sp{width: 10rem;overflow: hidden;}
+    .cartas-servicios{grid-template-columns: repeat(2,1fr);}
+    .port-img{display: flex; width: 80vw;flex-wrap: wrap;object-fit: cover;}
+    .port-img img{width: 15rem; height: 15rem;}
+    .feel{margin-top: 12.5rem;}
+    .hoja{display: none;}
+    .drop{width: 60vw;}
+    .subtitulo{display: none;}
+    .btn-enviar{margin: 1rem;}
+    
 }
 
 
 @media screen and (max-width:767px){
-body{
-    background-color: green;
-}
+
+header{visibility: hidden;position: relative;}
+.menu{visibility: visible;padding-top: 2rem;}
+.hero{flex-direction: column; padding-top: 10rem;}
+.cielo-img{visibility: hidden;}
+.cielo{margin-right: 25rem;padding-top: 18rem;}
+.cielo-p{width: 18rem;}
+.skills-p{visibility: hidden;}
+.progreso-1{flex-direction: column;align-items: center;}
+.progreso{width: 15rem; margin-left: 6rem;}
+.lang-1{margin-left: 6rem;}
+.especial{display: flex;align-items: center; padding-left: 5rem;}
+.especial-p{visibility: hidden;}
+.cartas-1{flex-direction: column;}
+.cartas-sp{margin-bottom: 1rem; margin-right: 9rem;}
+.servicios-p{visibility: hidden;}
+.cartas-servicios{display: flex;flex-direction: column;}
+.cartas10{width: 12rem;}
+.foto-5{width: 19rem;}
+.feel{width:19rem ;position: relative;top: 0.5rem;}
+.port-img{display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.hoja{display: none;}
+.input-line{display: flex; flex-direction: column; width: 15rem;}
+.subtitulo{display: none;}
+
 }
