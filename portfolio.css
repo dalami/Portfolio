@@ -4,7 +4,8 @@
 
 html {
   font-family: "Nunito", sans-serif;
-  background-color: #F9F9F9
+  background-color: #F9F9F9;
+ 
 }
 a {
   text-decoration: none;
@@ -100,6 +101,7 @@ header {
 .cielo-img {
   display: flex;
   border: 1rem solid #a9b1ea;
+  
 }
 .cielo-t {
   font-weight: 600;
@@ -341,20 +343,47 @@ h6 {
   width: 300px;
   height: 330px;
  background-color: #DFE2F7;
- border-radius:  70% 50% 100% 0;
+ border-radius:  50% 50% 56% 20%;
  position: relative;
- top: -43rem;
- left: 9.3rem;
- z-index: -1;
+ top: -40rem;
+ left: -4rem;
+ 
 }
 .blob3{
   width: 300px;
   height: 330px;
  background-color: #DFE2F7;
- border-radius: 0 100% 60% 70%;
+ border-radius: 0 65% 50% 50%;
  position: relative;
- top: -47rem;
- left: 9.3rem;
+ top: -43rem;
+ left: -4rem;
+}
+.blob4{
+  width: 40px;
+  height: 60px;
+ background-color: #DFE2F7;
+ position: relative;
+ top: -63.5rem;
+ left: 9rem;
+ 
+}
+.triangulo {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right:60px solid transparent;
+  border-bottom: 80px solid white;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  transform: rotate(95deg);
+  position: relative;
+ top: -68rem;
+ left: 9.8rem;
+ z-index: 1;
+ background-color: white;
+}
+.shape{
+  height: 2rem;
 }
 
 .serv- {
@@ -370,6 +399,7 @@ h6 {
   width: 80vw;
   justify-content: center;
   padding: 1rem 2rem;
+  z-index: 10;
 }
 
 .cartas-servicios p {
