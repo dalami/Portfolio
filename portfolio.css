@@ -413,13 +413,14 @@ h6 {
 }
 .cartas10:hover{
   cursor: pointer;
-  transform: scale(0.9);
+  transform: scale(1);
   border: 1px solid #a7a3a2;
   border-radius: 25%;
   overflow: hidden;
-  padding: 1rem;
-  box-shadow: 1px -1px #a7a3a2;
-  transition: ease-in-out;
+  opacity: 0.6;
+  /* padding: 1rem; */
+  /* box-shadow: 1px -1px #a7a3a2; */
+  /* transition: ease-in-out; */
 
 }
 .cartas10 p{
