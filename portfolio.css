@@ -752,7 +752,8 @@ p {
 @media screen and (min-width:768px) and (max-width:1023px){
    
     header{justify-content: center;padding: 0.5rem; z-index: 1;}
-    .hero img{width: 14rem;}
+    .hero img{width: 25rem;}
+    .hero{flex-direction: column; padding-top: 1rem;}
     .a{display: none;}
     .hero-t{font-size: 3rem;}
     .cielo{padding-top: 10rem;}
@@ -780,7 +781,7 @@ header{visibility: hidden;position: relative;}
 .menu{visibility: visible;padding-top: 2rem;}
 .hero{flex-direction: column; padding-top: 2rem;}
 .cielo-img{visibility: hidden;}
-.cielo{margin-right: 25rem;padding-top: 18rem;}
+.cielo{margin-right: 30rem;padding-top: 18rem;}
 .cielo-p{width: 18rem;}
 .skills-p{visibility: hidden;}
 .progreso-1{flex-direction: column;align-items: center;}
@@ -792,12 +793,12 @@ header{visibility: hidden;position: relative;}
 .cartas-sp{margin-bottom: 1rem; margin-right: 9rem;}
 .servicios-p{visibility: hidden;}
 .cartas-servicios{display: flex;flex-direction: column;}
-.cartas10{width: 12rem;}
+.cartas10{width: 12rem; margin-right: 5rem;}
 .foto-5{width: 19rem;}
 .feel{width:19rem ;position: relative;top: 0.5rem;}
 .port-img{display: flex;flex-direction: column;align-items: center;justify-content: center;}
 .hoja{display: none;}
-.input-line{display: flex; flex-direction: column; width: 15rem;}
+.input-line{display: flex; flex-direction: column; width: 15r}
 .subtitulo{display: none;}
 .lang-2,.lang-3, .lang-4, .lang-5, .lang-6, .lang-7, .lang-8, .lang-9  {display: none;}
 
