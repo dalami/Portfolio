@@ -94,7 +94,8 @@ header {
   
 }
 .cielo {
-  display: column;
+  display: flex;
+  flex-direction: column;
   padding: 0 3rem;
   z-index: 1;
 }
@@ -754,7 +755,7 @@ p {
     .hero img{width: 14rem;}
     .a{display: none;}
     .hero-t{font-size: 3rem;}
-    .cielo{padding-top: 6rem;}
+    .cielo{padding-top: 10rem;}
     .cielo-img{width: 10rem;border: none;opacity: 0.5;}
     .cielo-p{color: #464646;}
     .progreso-1{flex-direction: column;align-items: center;}
@@ -777,7 +778,7 @@ p {
 
 header{visibility: hidden;position: relative;}
 .menu{visibility: visible;padding-top: 2rem;}
-.hero{flex-direction: column; padding-top: 10rem;}
+.hero{flex-direction: column; padding-top: 2rem;}
 .cielo-img{visibility: hidden;}
 .cielo{margin-right: 25rem;padding-top: 18rem;}
 .cielo-p{width: 18rem;}
@@ -798,5 +799,7 @@ header{visibility: hidden;position: relative;}
 .hoja{display: none;}
 .input-line{display: flex; flex-direction: column; width: 15rem;}
 .subtitulo{display: none;}
+.lang-2,.lang-3, .lang-4, .lang-5, .lang-6, .lang-7, .lang-8, .lang-9  {display: none;}
 
 }
+
