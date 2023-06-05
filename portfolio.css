@@ -27,6 +27,10 @@ a:hover {
 .menu{
   visibility: hidden;
 }
+.menu:hover{
+  opacity: 0.5;
+  cursor:pointer
+}
 
 header {
   display: flex;
@@ -761,7 +765,7 @@ p {
     header{justify-content: center;padding: 0.5rem; z-index: 1;}
     .hero img{width: 25rem;}
     .hero{flex-direction: column; padding-top: 1rem;}
-    .a{display: none;}
+    /* .a{display: none;} */
     .hero-t{font-size: 3rem;}
     .cielo{padding-top: 10rem;}
     .cielo-img{width: 10rem;border: none;opacity: 0.5;}
@@ -784,9 +788,11 @@ p {
 
 @media screen and (max-width:767px){
 
-header{visibility: hidden;position: relative;}
+nav{visibility: hidden;position: relative;}
+header{position: relative;}
+.a{margin-left: 2rem;}
 .menu{visibility: visible;padding-top: 2rem;}
-.hero{flex-direction: column; padding-top: 2rem;}
+.hero{flex-direction: column; padding-top: 5rem;}
 .cielo-img{visibility: hidden;}
 .cielo{margin-right: 30rem;padding-top: 18rem;}
 .cielo-p{width: 18rem;}
@@ -805,7 +811,7 @@ header{visibility: hidden;position: relative;}
 .feel{width:19rem ;position: relative;top: 0.5rem;}
 .port-img{display: flex;flex-direction: column;align-items: center;justify-content: center;}
 .hoja{display: none;}
-.input-line{display: flex; flex-direction: column; width: 15r}
+.input-line{display: flex; flex-direction: column; width: 15rem}
 .subtitulo{display: none;}
 .lang-2,.lang-3, .lang-4, .lang-5, .lang-6, .lang-7, .lang-8, .lang-9  {display: none;}
 
