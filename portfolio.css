@@ -744,8 +744,14 @@ p {
 
 
 
-@media screen and (min-width:1024px){
-   
+@media screen and (min-width:1920px){
+  
+   .especial-t, .especial-p {margin-left: 10rem;}
+   .linea-es1{left:-10rem ;}
+   .linea-es2{left:-51rem}
+   .linea-5{left:-9.5rem}
+   .ovalo-5{left:-19rem}
+   .linea-6{left:-29rem}
 }
 
 
